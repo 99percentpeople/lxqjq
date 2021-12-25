@@ -10,7 +10,7 @@ class AboutDialog(QWidget, Ui_aboutDialog):
         if parent is not None:
             self.setAttribute(Qt.WA_ShowModal, True)
         self.setupUi(self)
-        with open("about.md", "r", encoding="utf-8") as f:
+        with open("README.md", "r", encoding="utf-8") as f:
             self.textBrowser.setMarkdown(f.read())
 
     @Slot()
