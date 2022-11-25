@@ -4,7 +4,7 @@ from PySide6.QtCore import SIGNAL, QObject, Signal, Slot
 from PySide6.QtGui import Qt
 from PySide6.QtWidgets import QFileDialog, QWidget
 
-from Forms.result_form import Ui_ResultForm
+from forms.result_form import Ui_ResultForm
 
 
 class EmittingStr(QObject):
