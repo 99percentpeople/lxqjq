@@ -12,7 +12,7 @@
 
 ## 3.运行
 
-首先，确保安装的Python的版本大于3.10，以及安装了numpy和PySide6，通过在控制台输入`python main.py`即可
+首先，确保安装的Python的版本大于3.10，可以通过`python --version`查看，以及安装了numpy和PySide6，如果没有安装，可以运行`pip install -r requirements.txt`进行安装，通过在控制台运行命令`python main.py`即可
 
 ## 4.使用说明
 
