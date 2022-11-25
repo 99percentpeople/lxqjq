@@ -1,4 +1,4 @@
-from Forms.about_dialog import Ui_aboutDialog
+from forms.about_dialog import Ui_aboutDialog
 from PySide6.QtCore import Slot
 from PySide6.QtGui import Qt, QShowEvent, QTextDocument
 from PySide6.QtWidgets import QWidget

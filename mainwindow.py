@@ -5,7 +5,7 @@ from PySide6.QtWidgets import (
     QTableWidgetItem,
     QWidget,
 )
-from Forms.lxqjq import Ui_MainWindow
+from forms.lxqjq import Ui_MainWindow
 from about import AboutDialog
 from result import ResultWidget
 from structuralCalc import *
